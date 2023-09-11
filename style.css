@@ -7,6 +7,13 @@ body * {
     color: rgba(0, 0, 0, .8);
 }
 
+/* Layout */
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
 .btn {
     background: none;
     border: solid 1px #D9D9D9;
@@ -91,8 +98,6 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: calc(100vh - 78px - 45px);
 
     max-width: 1440px;
     flex-grow: 1;
