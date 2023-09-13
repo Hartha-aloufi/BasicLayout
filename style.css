@@ -1,6 +1,10 @@
 /* Button component */
+body {
+    margin: 0;
+}
+
 body * {
-    color: rgba(0, 0, 0, .8)
+    color: rgba(0, 0, 0, .8);
 }
 
 .btn {
@@ -41,3 +45,33 @@ body * {
     color: #1890ff;
 }
 
+/* Header component */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #D9D9D9;
+    
+    padding: 27px 32px 10px 70px;
+}
+
+
+
+/* Space component*/
+.space {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px
+}
+
+.space.space--md {
+    gap: 16px;
+}
+.space.space--lg {
+    gap: 32px;
+}
+.space.space--xlg {
+    gap: 52px;
+}
